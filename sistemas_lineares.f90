@@ -1,8 +1,8 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!PROGRAMA SISTEMAS LINEARES - VERSÃO 2008							 !
-!	1 - MÉTODO ITERATIVO DE JACOBI								 !
-!	2 - MÉTODO ITERATIVO DE GAUSS-SEIDEL							 !
-!	3 - MÉTODO ITERATIVO DE GAUSS-SEIDEL COM RELAXAÇÃO					 !
+!      PROGRAMA SISTEMAS LINEARES - VERSÃƒO 2008							 !
+!	1 - MÃ‰TODO ITERATIVO DE JACOBI								 !
+!	2 - MÃ‰TODO ITERATIVO DE GAUSS-SEIDEL							 !
+!	3 - MÃ‰TODO ITERATIVO DE GAUSS-SEIDEL COM RELAXAÃ‡ÃƒO					 !
 !	4 - TDMA (PARA MATRIZES TRIDIAGONAIS)							 !
 !												 !
 !	PROGRAMADOR: RAFAEL GABLER GONTIJO							 !	
@@ -195,7 +195,7 @@ end if
 end
 
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! GAUSS-SEIDEL COM RELAXAÇÃO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! GAUSS-SEIDEL COM RELAXAÃ‡ÃƒO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 subroutine seidel_r(A,x,b,n,k,w,saida)
 
@@ -448,5 +448,3 @@ end do
 end if
 
 end
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
